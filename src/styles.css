@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-b from-bg-primary to-bg-primary/95 text-text-primary font-['Inter'] leading-relaxed m-0 min-h-screen;
+  }
+
+  ::selection {
+    @apply bg-accent/30 text-text-primary;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-accent-hover;
+  }
+}

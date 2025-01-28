@@ -1,0 +1,10 @@
+<div class="fixed top-4 right-4 z-50">
+    <select 
+      [value]="currentLang" 
+      (change)="switchLanguage($event)"
+      class="bg-bg-secondary text-text-primary border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
+    >
+      <option value="en">English</option>
+      <option value="es">Español</option>
+    </select>
+  </div>

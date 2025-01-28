@@ -1,0 +1,18 @@
+{
+    "AvailableToWork": "Dispuesto para trabajar",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto",
+    "ProfessionName": "Desarrollador de videojuegos",
+    "ProfessionSubtitle": "Creando experiencias inmersivas a traves de los videojuegos. Especializado en Unity y en ports de juegos a otra plataformas.",
+    "AboutMe": 
+    { 
+      "Title": "Sobre mi",
+      "DescriptionP1": "Mi nombre es Alfonso López Viejo y llevo 4 años en el sector de la programación y el desarrollo de videojuegos. Mi camino empezo en 2016 cuando decidí realizar el grado de en Diseño y Desarrollo de Videojuegos en la UDIT. Al principio el camino fue dificil, pero con constancia y perseverancia conseguí acabar el grado en 2020.",
+      "DescriptionP2": "Fue en este grado donde descubri mi pasión por programación y la resolución de problemas. Desde pequeño, siempre he sido una persona curiosa, logica y resolutiva y esta profesión me ha permitido explotar estas areas al maximo.",
+      "DescriptionP3": "Mi primera oportunidad profesional, fue en el sector de ports de juegos a otras plataformas. Desde esos proyectos, hasta la actualidad, mis ganas por dedicarme a la programación y al sector de los videojuegos no dejaron de crecer.",
+      "DescriptionP4": "En la actualidad he conseguido especializarme en el sector de los ports a consolas y he realizado varios trabajos en el sector del desarrollo movil. Cada día sigo aprendiendo tecnologías nuevas y estoy dispuesto a aprender todo lo posible para desarrollarme de forma profesional en el sector",
+      "YearsOfExperience": "años de experiencia en el sector",
+      "Experience": "Experiencia",
+      "Projects": "Proyectos"
+    }
+  }

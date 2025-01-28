@@ -1,0 +1,12 @@
+{
+    "AvailableToWork": "Available for work",
+    "about": "About Us",
+    "contact": "Contact",
+    "ProfessionName": "Game Developer",
+    "ProfessionSubtitle": "Crafting immersive gaming experiences. Specialized in Unity and game ports to other platforms.", 
+    "AboutMe": 
+    { 
+      "Title": "About me",
+      "DescriptionP1": ""
+    }
+  }
