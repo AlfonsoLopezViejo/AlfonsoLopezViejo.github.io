@@ -1,5 +1,11 @@
+
+<div *ngIf="isReady" class="float-left px-5 py-0 mt-6">
+  <!-- <a class="text-text-secondary pr-3 underline text-lg max-w-2xl mx-auto w-full" href="tel://+34636123456" title="Teléfono">(+34)638293089</a> -->
+  <a class="text-text-secondary underline text-lg max-w-2xl mx-auto " href="mailto:hola@bisoul.es" title="Correo electrónico">alfonsolopezviejo&#64;gmail.com</a>
+</div>
 <div *ngIf="isReady" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-    <!-- Hero Section -->
+
+  <!-- Hero Section -->
     <header class="my-20 space-y-4 text-center">
       <div class="inline-block mb-4 px-4 py-1.5 bg-accent/10 rounded-full">
         <!-- Uncomment it when available for work -->
@@ -100,11 +106,21 @@
                 </svg>
               </div>
               <div>
-                <div class="font-semibold">20+</div>
-                <div class="text-sm text-text-secondary">{{i18n.translate('AboutMe.Projects')}}</div>
+                <div class="font-semibold">10+</div>
+                <div class="text-sm text-text-secondary">{{i18n.translate('AboutMe.MobileProjects')}}</div>
               </div>
             </div>
-            
+            <div class="flex items-center gap-2">
+              <div class="w-12 h-12 flex items-center justify-center bg-accent/10 rounded-xl">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+                </svg>
+              </div>
+              <div>
+                <div class="font-semibold">2</div>
+                <div class="text-sm text-text-secondary">{{i18n.translate('AboutMe.VideogamesProjects')}}</div>
+              </div>
+            </div>    
           </div>
         </div>
         <div class="relative">
@@ -172,7 +188,7 @@
     <!-- Skills Section -->
     <section class="my-32">
       <h2 class="text-3xl font-bold mb-12 text-center">
-        <span class="text-gradient">Technical Skills</span>
+        <span class="text-gradient">{{i18n.translate('TechnicalSkills')}}</span>
       </h2>
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
         <div *ngFor="let category of skillCategories" class="space-y-6">

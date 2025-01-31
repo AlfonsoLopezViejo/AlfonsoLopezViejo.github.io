@@ -16,6 +16,7 @@ export interface Project {
     poster?: string;
     title: string;
   }[];
+  itchIoUrl?: string;
 }
 
 export const projects: Project[] = [
@@ -57,7 +58,8 @@ The game supports up to 100 players simultaneously, featuring a dynamic weather 
         poster: 'https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3',
         title: 'Technical Features'
       }
-    ]
+    ],
+    itchIoUrl: 'https://yourusername.itch.io/game1'
   },
   {
     id: 'mobile-puzzle',

@@ -33,8 +33,7 @@ export class I18nService{
       .catch((err) => {
         console.error('Error al inicializar i18next:', err);
       });
-
-    i18next.changeLanguage('es');
+      
   }
 
   // Cambiar idioma

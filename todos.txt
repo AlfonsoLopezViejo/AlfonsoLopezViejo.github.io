@@ -1,0 +1,4 @@
+TODO Make en and es translations for all texts
+TODO Find how to deploy the angular repo as a github page 
+TODO Make project sections
+TODO WEB GL builds posibility
