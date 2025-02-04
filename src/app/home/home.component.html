@@ -14,9 +14,9 @@
       <h1 class="text-5xl sm:text-6xl font-bold tracking-tight">
         <span class="text-gradient">Alfonso López Viejo</span>
       </h1>
-      <h2 class="text-2xl sm:text-3xl font-medium text-accent/90">{{i18n.translate('ProfessionName')}}</h2>
+      <h2 class="text-2xl sm:text-3xl font-medium text-accent/90">{{'ProfessionName' | translate}}</h2>
       <p class="text-text-secondary text-lg max-w-2xl mx-auto mt-6">
-        {{i18n.translate('ProfessionSubtitle')}}
+        {{'ProfessionSubtitle' | translate}}
       </p>
       <div class="flex justify-center gap-4 mt-8">
         <!-- Bitbucket -->
@@ -71,20 +71,20 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="space-y-6">
           <h2 class="text-3xl font-bold">
-            <span class="text-gradient">{{i18n.translate('AboutMe.Title')}}</span>
+            <span class="text-gradient">{{'AboutMe.Title' | translate }}</span>
           </h2>
           <div class="space-y-4 text-lg text-text-secondary">
             <p>
-              {{i18n.translate('AboutMe.DescriptionP1')}}
+              {{'AboutMe.DescriptionP1' | translate}}
             </p>
             <p>
-              {{i18n.translate('AboutMe.DescriptionP2')}}
+              {{'AboutMe.DescriptionP2' | translate}}
             </p>
             <p>
-              {{i18n.translate('AboutMe.DescriptionP3')}}
+              {{'AboutMe.DescriptionP2' | translate}}
             </p>
             <p>
-              {{i18n.translate('AboutMe.DescriptionP4')}}
+              {{'AboutMe.DescriptionP4' | translate}}
             </p>
           </div>
           <div class="flex flex-wrap gap-6 pt-4">
@@ -95,8 +95,8 @@
                 </svg>
               </div>
               <div>
-                <div class="font-semibold">4+ {{i18n.translate('AboutMe.YearsOfExperience')}}</div>
-                <div class="text-sm text-text-secondary">{{i18n.translate('AboutMe.Experience')}}</div>
+                <div class="font-semibold">4+ {{'AboutMe.YearsOfExperience' | translate}}</div>
+                <div class="text-sm text-text-secondary">{{'AboutMe.Experience' | translate}}</div>
               </div>
             </div>
             <div class="flex items-center gap-2">
@@ -107,7 +107,7 @@
               </div>
               <div>
                 <div class="font-semibold">10+</div>
-                <div class="text-sm text-text-secondary">{{i18n.translate('AboutMe.MobileProjects')}}</div>
+                <div class="text-sm text-text-secondary">{{'AboutMe.MobileProjects' | translate}}</div>
               </div>
             </div>
             <div class="flex items-center gap-2">
@@ -118,7 +118,7 @@
               </div>
               <div>
                 <div class="font-semibold">2</div>
-                <div class="text-sm text-text-secondary">{{i18n.translate('AboutMe.VideogamesProjects')}}</div>
+                <div class="text-sm text-text-secondary">{{'AboutMe.VideogamesProjects' | translate}}</div>
               </div>
             </div>    
           </div>
@@ -139,7 +139,7 @@
     <!-- Projects Section -->
     <section class="my-32">
       <h2 class="text-3xl font-bold mb-12 text-center">
-        <span class="text-gradient">{{i18n.translate('projectsTitle')}}</span>
+        <span class="text-gradient">{{'projectsTitle' | translate}}</span>
       </h2>
       <div class="space-y-8">
         <div *ngFor="let project of projects" class="group bg-bg-secondary backdrop-blur-sm bg-opacity-50 p-8 rounded-2xl border border-white/5 transition-all duration-300 hover:border-accent/20 hover:shadow-lg hover:shadow-accent/5">
@@ -154,18 +154,18 @@
             <div class="flex-1">
               <h3 class="text-2xl font-semibold group-hover:text-accent transition-colors">
                 <a [routerLink]="['/project', project.id]" class="hover:text-accent transition-colors">
-                  {{ project.name }}
+                  {{ project.name | translate }}
                 </a>
               </h3>
               <p class="text-text-secondary mt-3 leading-relaxed">
-                {{ project.shortDescription }}
+                {{ project.shortDescription | translate}}
               </p>
               <div class="flex flex-wrap gap-2 mt-6">
                 <span 
                   *ngFor="let tech of project.technologies"
                   class="bg-bg-primary/50 px-4 py-2 rounded-lg text-sm font-medium"
                 >
-                  {{ tech }}
+                  {{ tech | translate}}
                 </span>
               </div>
               <div class="mt-6 flex gap-4">
@@ -173,7 +173,7 @@
                   [routerLink]="['/project', project.id]"
                   class="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors"
                 >
-                  <span>{{i18n.translate('projectsViewDetails')}}</span>
+                  <span>{{'projectsViewDetails' | translate}}</span>
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
                   </svg>
@@ -188,15 +188,15 @@
     <!-- Skills Section -->
     <section class="my-32">
       <h2 class="text-3xl font-bold mb-12 text-center">
-        <span class="text-gradient">{{i18n.translate('TechnicalSkills')}}</span>
+        <span class="text-gradient">{{'TechnicalSkills' | translate}}</span>
       </h2>
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
         <div *ngFor="let category of skillCategories" class="space-y-6">
-          <h3 class="text-2xl font-semibold">{{ category.name }}</h3>
+          <h3 class="text-2xl font-semibold">{{ category.name | translate}}</h3>
           <div class="space-y-6">
             <div *ngFor="let skill of category.skills" class="space-y-2">
               <div class="flex justify-between items-center">
-                <span class="font-medium">{{ skill.name }}</span>
+                <span class="font-medium">{{ skill.name | translate}}</span>
                 <span class="text-text-secondary">{{ skill.proficiency }}%</span>
               </div>
               <div class="h-2 bg-bg-secondary rounded-full overflow-hidden">
@@ -206,7 +206,7 @@
                 ></div>
               </div>
               <p *ngIf="skill.description" class="text-sm text-text-secondary">
-                {{ skill.description }}
+                {{ skill.description | translate}}
               </p>
             </div>
           </div>

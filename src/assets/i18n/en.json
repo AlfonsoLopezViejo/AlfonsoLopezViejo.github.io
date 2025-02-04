@@ -54,12 +54,12 @@
       "shortDescription": "Descripcion corta temporal de prueba",
       "fullDescription": "Descripcion larga temportal de prueba english",
       "technologies": 
-      [
-        "PS4 Port English",
-        "Switch Port",
-        "Unity",
-        "C#"
-      ],
+      {
+        "PS4 Port English": "PS4 Port English",
+        "Switch Port": "Switch Port",
+        "Unity": "Unity",
+        "C#": "C#"
+      },
       "features": 
       [
         "Juego multiplataforma",

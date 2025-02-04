@@ -56,12 +56,12 @@
         "shortDescription": "Participe junto a otros miembros en el port a PS4 y Switch del juego 'Metal Tales'",
         "fullDescription": "Metal Tales Overkill es la version porteada del videojuego Metal Tales, un roguelike con tematica metalera con multiples niveles, enemigos, objetos y escenarios. \n El port fue desarrollado en Unity ya que era un proyecto antiguo y que habia sido desarrollado con este motor en el pasado. En este proyecto aprendi el proceso de port de un proyecto de PC a PS4/Switch y fue el comienzo de mi carrera en este ambito",
         "technologies": 
-        [
-          "PS4 Port",
-          "Switch Port",
-          "Unity",
-          "C#"
-        ],
+        {
+          "PS4 Port English": "PS4 Port English",
+          "Switch Port": "Switch Port",
+          "Unity": "Unity",
+          "C#": "C#"
+        },
         "features": 
         [
           "Multiplataforma",

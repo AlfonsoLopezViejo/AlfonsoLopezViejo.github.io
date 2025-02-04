@@ -25,7 +25,13 @@ export const projects: Project[] = [
     name: 'projects.metal-tales-overkill.name',
     shortDescription: 'projects.metal-tales-overkill.shortDescription',
     fullDescription: 'projects.metal-tales-overkill.fullDescription',
-    technologies: ['projects.metal-tales-overkill.technologies'],
+    technologies: 
+    [
+      'projects.metal-tales-overkill.technologies.PS4 Port English',
+      'projects.metal-tales-overkill.technologies.Switch Port',
+      'projects.metal-tales-overkill.technologies.Unity',
+      'projects.metal-tales-overkill.technologies.C#'
+    ],
     imageUrl: '../../assets/imgs/projects/Metal-Tales/metal-tales-splash.jpg',
     features: [
       'projects.metal-tales-overkill.features'

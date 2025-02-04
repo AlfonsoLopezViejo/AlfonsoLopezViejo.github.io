@@ -1,5 +1,3 @@
-import { i18n } from "i18next";
-
 export interface Skill {
     name: string;
     proficiency: number; // 0-100

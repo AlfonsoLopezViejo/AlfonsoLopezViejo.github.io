@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { I18nService } from '../services/i18n.service';
-import { SkillTranslationService } from '../services/skill-translation.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-language-switcher-selector',
@@ -11,19 +10,15 @@ import { SkillTranslationService } from '../services/skill-translation.service';
 export class LanguageSwitcherSelectorComponent {
   currentLang: string | undefined;
 
-  constructor(private i18nService: I18nService, private skillTranslationService: SkillTranslationService) {
+  constructor(private translation: TranslateService) {
 
-    this.i18nService.isReady$.subscribe((ready) => 
-    {
-      this.currentLang = i18nService.getCurrentLanguage();
-    })
+    this.currentLang = translation.currentLang;
   }
 
   switchLanguage(event: Event) {
     const lang = (event.target as HTMLSelectElement).value;
-    this.i18nService.changeLanguage(lang);
+    this.translation.use(lang);
     this.currentLang = lang;
-    this.skillTranslationService.TranslateSkillCategories();
   }
 
 }
