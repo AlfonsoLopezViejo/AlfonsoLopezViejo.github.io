@@ -57,25 +57,52 @@
         "fullDescription": "Metal Tales Overkill es la version porteada del videojuego Metal Tales, un roguelike con tematica metalera con multiples niveles, enemigos, objetos y escenarios. \n El port fue desarrollado en Unity ya que era un proyecto antiguo y que habia sido desarrollado con este motor en el pasado. En este proyecto aprendi el proceso de port de un proyecto de PC a PS4/Switch y fue el comienzo de mi carrera en este ambito",
         "technologies": 
         {
-          "PS4 Port English": "PS4 Port English",
-          "Switch Port": "Switch Port",
-          "Unity": "Unity",
-          "C#": "C#"
+          "tech1": "PS4 Port English",
+          "tech2": "Switch Port",
+          "tech3": "Unity",
+          "tech4": "C#"
         },
         "features": 
-        [
-          "Multiplataforma",
-          "Multiples personajes y niveles",
-          "Roguelike",
-          "Multijugador cooperativo",
-          "¡Metal!"
-        ],
+        {
+          "feature1": "Multiplataforma",
+          "feature2": "Multiples personajes y niveles",
+          "feature3": "Roguelike",
+          "feature4": "Multijugador cooperativo",
+          "feature5": "¡Metal!"
+        },
         "challenges": 
-        [
-          "Aprender desde 0 como realizar game ports a PS4 y a Switch",
-          "Primer proyecto en el sector profesional",
-          "Resolución de problemas derivados de ser un proyecto antiguo"
-        ]
+        {
+          "challenge1": "Aprender desde 0 como realizar game ports a PS4 y a Switch",
+          "challenge2": "Primer proyecto en el sector profesional",
+          "challenge3": "Resolución de problemas derivados de ser un proyecto antiguo"
+        }
+      },
+
+      "sonar-beat":
+      {
+        "name": "Game Port: Sonar Beat",
+        "shortDescription": "Participe junto a otros miembros en el port a PS4 y Switch del juego 'Sonar Beat', un juego de ritmo que estaba en PC y moviles",
+        "fullDescription": "Este proyecto es la version porteada del videojuego Sonar Beat, un juego de ritmo con diferentes niveles en los que el jugador debera pulsar las notas que le aparecen en pantalla al ritmo de un sonar que va girando constantemente. Consta de varios niveles con dificultad progresiva \n El port fue desarrollado en Unity ya que el proyecto original estaba desarrollado en este motor. Se desarrollo tanto para Europa como para Asia. En este proyecto adquiri la más experiencia final para tener un buen conocimiento en el port a PS4 y Switch. Aun así, sigo teniendo iniciativa por continuar realizando más proyectos y aprendiendo más del tema.",
+        "technologies": 
+        {
+          "tech1": "PS4 Port",
+          "tech2": "Switch Port",
+          "tech3": "Unity",
+          "tech4": "C#"
+        },
+        "features": 
+        {
+          "feature1": "Multiplataforma y multidioma",
+          "feature2": "Multiples niveles y dificultades",
+          "feature3": "Sistema de rankings en todas las plataformas",
+          "feature4": "Juego de ritmo"
+        },
+        "challenges": 
+        {
+          "challenge1": "Aprendizaje del sistema de rankings de Switch y PS4",
+          "challenge2": "Aprendizaje de como realizar un proyecto multidioma orientado a Switch y PS4",
+          "challenge3": "Resolución de problemas derivados con el port"
+        }
       }
     },
 

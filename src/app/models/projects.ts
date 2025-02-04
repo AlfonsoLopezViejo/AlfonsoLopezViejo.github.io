@@ -5,9 +5,11 @@ export interface Project {
   fullDescription: string;
   technologies: string[];
   imageUrl: string;
+  startDate?: string;
+  endDate?: string;
   githubUrl?: string;
   gitlabUrl?: string;
-  demoUrl?: string;
+  projectUrl?: string;
   features: string[];
   challenges: string[];
   screenshots: string[];
@@ -27,17 +29,29 @@ export const projects: Project[] = [
     fullDescription: 'projects.metal-tales-overkill.fullDescription',
     technologies: 
     [
-      'projects.metal-tales-overkill.technologies.PS4 Port English',
-      'projects.metal-tales-overkill.technologies.Switch Port',
-      'projects.metal-tales-overkill.technologies.Unity',
-      'projects.metal-tales-overkill.technologies.C#'
+      'projects.metal-tales-overkill.technologies.tech1',
+      'projects.metal-tales-overkill.technologies.tech2',
+      'projects.metal-tales-overkill.technologies.tech3',
+      'projects.metal-tales-overkill.technologies.tech4'
     ],
     imageUrl: '../../assets/imgs/projects/Metal-Tales/metal-tales-splash.jpg',
+    // startDate?: string;
+    // endDate?: string;
+    // githubUrl?: string;
+    // gitlabUrl?: string;
+    // projectUrl?: string;
+    startDate: '01-01-2024',
     features: [
-      'projects.metal-tales-overkill.features'
+      'projects.metal-tales-overkill.features.feature1',
+      'projects.metal-tales-overkill.features.feature2',
+      'projects.metal-tales-overkill.features.feature3',
+      'projects.metal-tales-overkill.features.feature4',
+      'projects.metal-tales-overkill.features.feature5'
     ],
     challenges: [
-      'projects.metal-tales-overkill.challenges'
+      'projects.metal-tales-overkill.challenges.challenge1',
+      'projects.metal-tales-overkill.challenges.challenge2',
+      'projects.metal-tales-overkill.challenges.challenge3'
     ],
     screenshots: [
       '../../assets/imgs/projects/Metal-Tales/metal-tales-screenshot1.jpg',
@@ -52,5 +66,48 @@ export const projects: Project[] = [
         title: 'Metal Tales: Overkill - Gameplay PS4'
       }
     ]
+  },
+
+  {
+    id: 'sonar-beat',
+    name: 'projects.sonar-beat.name',
+    shortDescription: 'projects.sonar-beat.shortDescription',
+    fullDescription: 'projects.sonar-beat.fullDescription',
+    technologies: 
+    [
+
+    ],
+    imageUrl: '../../assets/imgs/projects/Sonar-Beat/sonar-beat-splash.jpg',
+    // startDate?: string;
+    // endDate?: string;
+    // githubUrl?: string;
+    // gitlabUrl?: string;
+    // projectUrl?: string;
+    features: 
+    [
+      'projects.sonar-beat.features.feature1',
+      'projects.sonar-beat.features.feature2',
+      'projects.sonar-beat.features.feature3',
+      'projects.sonar-beat.features.feature4',
+    ],
+    challenges: 
+    [
+      'projects.sonar-beat.challenges.challenge1',
+      'projects.sonar-beat.challenges.challenge2',
+      'projects.sonar-beat.challenges.challenge3'
+    ],
+    screenshots:
+    [
+      '../../assets/imgs/projects/Sonar-Beat/sonar-beat-screenshot1.avif',
+      '../../assets/imgs/projects/Sonar-Beat/sonar-beat-screenshot2.jpg'
+    ],
+    videos: [
+      {
+        url: 'https://www.youtube.com/embed/fjjEnQlarcU?si=x4qqOwYqrBzKlMua',
+        poster: '../../assets/imgs/projects/Sonar-Beat/sonar-beat-splash.jpg',
+        title: 'Sonar Beat Trailer (PS4 Asia)'
+      }
+    ]
+    // itchIoUrl?: string;
   }
 ];

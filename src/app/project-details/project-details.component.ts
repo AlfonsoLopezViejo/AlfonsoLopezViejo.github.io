@@ -22,4 +22,12 @@ export class ProjectDetailsComponent implements OnInit{
     const id = this.route.snapshot.paramMap.get('id');
     this.project = projects.find(p => p.id === id);
   }
+
+  formatDate(date: string | undefined): string | undefined{
+    if(date === undefined) return undefined;
+    return new Date(date).toLocaleDateString('es', {
+      year: 'numeric',
+      month: 'long'
+    });
+  }
 }
