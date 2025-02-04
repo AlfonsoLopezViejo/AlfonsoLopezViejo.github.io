@@ -6,7 +6,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
       <path fill-rule="evenodd" d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z" clip-rule="evenodd" />
     </svg>
-    Back to Portfolio
+    {{i18n.translate('BackToPortfolio')}}
   </a>
 
   <div *ngIf="project" class="space-y-8">
@@ -46,20 +46,19 @@
 
     <!-- Videos Section -->
     <div *ngIf="project.videos && project.videos.length > 0" class="space-y-8">
-      <h2 class="text-2xl font-semibold">Project Videos</h2>
+      <h2 class="text-2xl font-semibold">  {{i18n.translate('projectDetails.Videos')}}</h2>
       <div class="grid grid-cols-1 gap-8">
         <div *ngFor="let video of project.videos" class="space-y-2">
           <h3 class="text-lg font-medium text-text-secondary">{{ video.title }}</h3>
           <div class="aspect-video rounded-xl overflow-hidden bg-bg-secondary">
-            <video
-              [poster]="video.poster"
-              class="w-full h-full"
-              controls
-              preload="metadata"
-            >
-              <source [src]="video.url" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
+            <iframe class="w-full h-full" 
+              [src]="video.url | safe: 'resourceUrl'" 
+              [title]="video.title" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+              referrerpolicy="strict-origin-when-cross-origin" 
+              allowfullscreen>
+            </iframe>
           </div>
         </div>
       </div>
@@ -67,7 +66,7 @@
 
     <!-- Screenshots Section -->
     <div class="space-y-4">
-      <h2 class="text-2xl font-semibold">Screenshots</h2>
+      <h2 class="text-2xl font-semibold">{{i18n.translate('projectDetails.Screenshoots')}}</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div *ngFor="let screenshot of project.screenshots" class="aspect-video rounded-xl overflow-hidden">
           <img 
@@ -114,7 +113,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div class="space-y-4">
-        <h2 class="text-2xl font-semibold">Key Features</h2>
+        <h2 class="text-2xl font-semibold">{{i18n.translate('projectDetails.KeyFeatures')}}</h2>
         <ul class="space-y-2">
           <li 
             *ngFor="let feature of project.features"
@@ -129,7 +128,7 @@
       </div>
 
       <div class="space-y-4">
-        <h2 class="text-2xl font-semibold">Technical Challenges</h2>
+        <h2 class="text-2xl font-semibold">{{i18n.translate('projectDetails.TechnicalChallenges')}}</h2>
         <ul class="space-y-2">
           <li 
             *ngFor="let challenge of project.challenges"

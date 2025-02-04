@@ -1,4 +1,5 @@
 {
+    "BackToPortfolio": "Volver al inicio",
     "AvailableToWork": "Dispuesto para trabajar",
     "about": "Sobre Nosotros",
     "contact": "Contacto",
@@ -44,5 +45,45 @@
       "angular": "Multiples proyectos desarrollados en Ionic usando Angular. Conocimiento extenso del framework",
       "git": "Multiples proyectos gestionados mediante el sistema de control de versiones de Git",
       "photo&utils": "Entendimiento basico de las herramientas aunque suficiente para poder usar las herramientas con soltura."
+    },
+    "projectsTitle": "Proyectos",
+    "projectsViewDetails": "Ver Detalles",
+    "projects": 
+    {
+      "metal-tales-overkill": 
+      {
+        "name": "Game Port: Metal Tales Overkill",
+        "shortDescription": "Participe junto a otros miembros en el port a PS4 y Switch del juego 'Metal Tales'",
+        "fullDescription": "Metal Tales Overkill es la version porteada del videojuego Metal Tales, un roguelike con tematica metalera con multiples niveles, enemigos, objetos y escenarios. \n El port fue desarrollado en Unity ya que era un proyecto antiguo y que habia sido desarrollado con este motor en el pasado. En este proyecto aprendi el proceso de port de un proyecto de PC a PS4/Switch y fue el comienzo de mi carrera en este ambito",
+        "technologies": 
+        [
+          "PS4 Port",
+          "Switch Port",
+          "Unity",
+          "C#"
+        ],
+        "features": 
+        [
+          "Multiplataforma",
+          "Multiples personajes y niveles",
+          "Roguelike",
+          "Multijugador cooperativo",
+          "¡Metal!"
+        ],
+        "challenges": 
+        [
+          "Aprender desde 0 como realizar game ports a PS4 y a Switch",
+          "Primer proyecto en el sector profesional",
+          "Resolución de problemas derivados de ser un proyecto antiguo"
+        ]
+      }
+    },
+
+    "projectDetails": 
+    {
+      "Videos": "Videos",
+      "Screenshoots": "Capturas de pantalla",
+      "KeyFeatures": "Características Clave",
+      "TechnicalChallenges": "Retos técnicos"
     }
   }

@@ -5,6 +5,7 @@ import { projects } from './models/projects';
 import { BackgroundComponent } from './background/background.component';
 import { LanguageSwitcherSelectorComponent } from './language-switcher-selector/language-switcher-selector.component';
 import { I18nService } from './services/i18n.service';
+import { SafePipe } from './pipes/safe.pipe';
 
 @Component({
   selector: 'app-root',

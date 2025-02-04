@@ -1,7 +1,4 @@
 import { Injectable, OnInit } from '@angular/core';
-import i18next from 'i18next';
-import Backend from 'i18next-http-backend';
-import LanguageDetector from 'i18next-browser-languagedetector';
 import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
@@ -44,6 +41,12 @@ export class I18nService{
   // Obtener traducción
   translate(key: string): string {
     return i18next.t(key);
+  }
+
+  //Obtener traducción de array
+  translateArray(key: string): string[] {
+    const result = i18next.t(key, { returnObjects: true }) as string[]
+    return result;
   }
 
   // Obtener idioma actual

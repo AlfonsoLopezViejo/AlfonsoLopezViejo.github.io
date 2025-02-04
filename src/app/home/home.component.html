@@ -139,7 +139,7 @@
     <!-- Projects Section -->
     <section class="my-32">
       <h2 class="text-3xl font-bold mb-12 text-center">
-        <span class="text-gradient">Featured Projects</span>
+        <span class="text-gradient">{{i18n.translate('projectsTitle')}}</span>
       </h2>
       <div class="space-y-8">
         <div *ngFor="let project of projects" class="group bg-bg-secondary backdrop-blur-sm bg-opacity-50 p-8 rounded-2xl border border-white/5 transition-all duration-300 hover:border-accent/20 hover:shadow-lg hover:shadow-accent/5">
@@ -148,7 +148,7 @@
               <img 
                 [src]="project.imageUrl"
                 [alt]="project.name + ' Screenshot'"
-                class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+                class="w-full h-full object-cover transform group-hover:scale-[1.02] transition-transform duration-300"
               />
             </div>
             <div class="flex-1">
@@ -173,7 +173,7 @@
                   [routerLink]="['/project', project.id]"
                   class="inline-flex items-center gap-2 text-text-secondary hover:text-accent transition-colors"
                 >
-                  <span>View Details</span>
+                  <span>{{i18n.translate('projectsViewDetails')}}</span>
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
                   </svg>

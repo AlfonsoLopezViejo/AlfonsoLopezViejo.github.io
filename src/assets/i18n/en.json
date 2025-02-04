@@ -1,12 +1,79 @@
 {
-    "AvailableToWork": "Available for work",
-    "about": "About Us",
-    "contact": "Contact",
-    "ProfessionName": "Game Developer",
-    "ProfessionSubtitle": "Crafting immersive gaming experiences. Specialized in Unity and game ports to other platforms.", 
-    "AboutMe": 
-    { 
-      "Title": "About me",
-      "DescriptionP1": ""
+  "AvailableToWork": "Dispuesto para trabajar",
+  "about": "Sobre Nosotros",
+  "contact": "Contacto",
+  "ProfessionName": "Desarrollador de videojuegos",
+  "ProfessionSubtitle": "Creando experiencias inmersivas a traves de los videojuegos. Especializado en Unity y en ports de juegos a otra plataformas.",
+  "AboutMe": 
+  { 
+    "Title": "Sobre mi",
+    "DescriptionP1": "Mi nombre es Alfonso López Viejo y llevo 4 años en el sector de la programación y el desarrollo de videojuegos a nivel profesional. Mi camino empezo en 2016 cuando decidí realizar el grado de en Diseño y Desarrollo de Videojuegos en la UDIT. Los comienzos fueron complicados, pero con constancia y perseverancia conseguí acabar el grado en el año 2020.",
+    "DescriptionP2": "Fue en este grado donde descubri mi pasión por la programación y la resolución de problemas. Desde pequeño, siempre he sido una persona curiosa, logica y resolutiva y esta profesión me ha permitido explotar estas areas a su maximo exponente.",
+    "DescriptionP3": "Mi primera oportunidad profesional, fue en el sector de ports de juegos a otras plataformas. Gracias a dos proyectos indi, pude empezar a desarrollarme de manera profesional y a aplicar los conocimientos adquiridos en la carrera. Desde este comienzo hasta la actualidad, mis ganas por dedicarme a la programación y al sector de los videojuegos no han dejado de crecer y continuo buscando el desarrollo profesional día a día.",
+    "DescriptionP4": "En la actualidad he conseguido especializarme en el sector de los ports a consolas y he realizado varios trabajos en el sector del desarrollo movil. Cada día sigo aprendiendo tecnologías nuevas y estoy dispuesto a aprender todo lo posible para desarrollarme de forma profesional en el sector",
+    "YearsOfExperience": "años de experiencia como programador",
+    "Experience": "Experiencia",
+    "MobileProjects": "Aplicaciones moviles",
+    "VideogamesProjects": "Proyectos profesionales desarrollados de videojuegos"
+  },
+  "TechnicalSkills": "Habilidades técnicas",
+
+  "skillCategories": {
+    "gameEngines": "Motores de videojuegos y aplicaciones moviles",
+    "programming": "Programacion",
+    "tools": "Herramientas y frameworks"
+  },
+  "skills": {
+    "unity": "Unity Ingles",
+    "unreal": "Unreal Engine",
+    "ionic": "Ionic",
+    "c#": "C#",
+    "typescript": "Typescript",
+    "c++": "C++",
+    "angular": "Angular",
+    "git": "Git",
+    "photo&utils": "Photoshop y motores 3D"
+  },
+  "description": {
+    "unity": "Experto en Unity. Multiples proyectos desarrollados en este motor",
+    "unreal": "Conocimiento notable del lenguaje. Tanto de blueprints como de su apartado en C++",
+    "ionic": "Aplicaciones moviles desarrolladas gracias a este framework. Conocimiento extenso de sus componentes y soltura a la hora de usarlo",
+    "c#": "Experto en C# y orientado a Unity. Conocimiento extenso del lenguaje",
+    "typescript": "Multiples proyectos desarrollados mediante el lenguje typescript a traves de los proyectos de Ionic",
+    "c++": "Diversos proyectos desarrollados con C++ dentro del grado. Conocimiento de las bases del lenguaje y el desarrollo",
+    "angular": "Multiples proyectos desarrollados en Ionic usando Angular. Conocimiento extenso del framework",
+    "git": "Multiples proyectos gestionados mediante el sistema de control de versiones de Git",
+    "photo&utils": "Entendimiento basico de las herramientas aunque suficiente para poder usar las herramientas con soltura."
+  },
+  "projectsTitle": "Proyectos English",
+  "projects": 
+  {
+    "metal-tales-overkill": 
+    {
+      "name": "Game Port: Metal Tales Overkill English",
+      "shortDescription": "Descripcion corta temporal de prueba",
+      "fullDescription": "Descripcion larga temportal de prueba english",
+      "technologies": 
+      [
+        "PS4 Port English",
+        "Switch Port",
+        "Unity",
+        "C#"
+      ],
+      "features": 
+      [
+        "Juego multiplataforma",
+        "Multiples personajes y niveles",
+        "Roguelike",
+        "Multijugador cooperativo",
+        "¡Metal!"
+      ],
+      "challenges": 
+      [
+        "Aprender desde 0 como realizar game ports a PS4 y a Switch",
+        "Primer proyecto en el sector profesional",
+        "Resolución de problemas derivados de ser un proyecto antiguo"
+      ]
     }
+  }
   }
