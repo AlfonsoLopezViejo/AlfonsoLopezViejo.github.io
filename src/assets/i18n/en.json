@@ -1,79 +1,126 @@
 {
-  "AvailableToWork": "Dispuesto para trabajar",
-  "about": "Sobre Nosotros",
-  "contact": "Contacto",
-  "ProfessionName": "Desarrollador de videojuegos",
-  "ProfessionSubtitle": "Creando experiencias inmersivas a traves de los videojuegos. Especializado en Unity y en ports de juegos a otra plataformas.",
+  "BackToPortfolio": "Back to Home",
+  "AvailableToWork": "Available to Work",
+  "about": "About Us",
+  "contact": "Contact",
+  "ProfessionName": "Video Game Developer",
+  "ProfessionSubtitle": "Creating immersive experiences through video games. Specialized in Unity and game ports to other platforms.",
   "AboutMe": 
   { 
-    "Title": "Sobre mi",
-    "DescriptionP1": "Mi nombre es Alfonso López Viejo y llevo 4 años en el sector de la programación y el desarrollo de videojuegos a nivel profesional. Mi camino empezo en 2016 cuando decidí realizar el grado de en Diseño y Desarrollo de Videojuegos en la UDIT. Los comienzos fueron complicados, pero con constancia y perseverancia conseguí acabar el grado en el año 2020.",
-    "DescriptionP2": "Fue en este grado donde descubri mi pasión por la programación y la resolución de problemas. Desde pequeño, siempre he sido una persona curiosa, logica y resolutiva y esta profesión me ha permitido explotar estas areas a su maximo exponente.",
-    "DescriptionP3": "Mi primera oportunidad profesional, fue en el sector de ports de juegos a otras plataformas. Gracias a dos proyectos indi, pude empezar a desarrollarme de manera profesional y a aplicar los conocimientos adquiridos en la carrera. Desde este comienzo hasta la actualidad, mis ganas por dedicarme a la programación y al sector de los videojuegos no han dejado de crecer y continuo buscando el desarrollo profesional día a día.",
-    "DescriptionP4": "En la actualidad he conseguido especializarme en el sector de los ports a consolas y he realizado varios trabajos en el sector del desarrollo movil. Cada día sigo aprendiendo tecnologías nuevas y estoy dispuesto a aprender todo lo posible para desarrollarme de forma profesional en el sector",
-    "YearsOfExperience": "años de experiencia como programador",
-    "Experience": "Experiencia",
-    "MobileProjects": "Aplicaciones moviles",
-    "VideogamesProjects": "Proyectos profesionales desarrollados de videojuegos"
+    "Title": "About Me",
+    "DescriptionP1": "My name is Alfonso López Viejo, and I have been in the programming and video game development industry for four years professionally. My journey began in 2016 when I decided to pursue a degree in Game Design and Development at UDIT. The beginnings were challenging, but with perseverance and dedication, I managed to complete my degree in 2020.",
+    "DescriptionP2": "It was during this degree that I discovered my passion for programming and problem-solving. Since childhood, I have always been a curious, logical, and resourceful person, and this profession has allowed me to fully utilize these qualities.",
+    "DescriptionP3": "My first professional opportunity was in the game porting sector. Thanks to two indie projects, I was able to start developing professionally and applying the knowledge acquired during my studies. From this beginning until now, my passion for programming and the video game industry has continued to grow, and I strive for professional development every day.",
+    "DescriptionP4": "Currently, I have specialized in console ports and have worked on various mobile development projects. Every day, I continue learning new technologies and am eager to acquire as much knowledge as possible to further develop my professional skills in the industry.",
+    "YearsOfExperience": "years of experience as a programmer",
+    "Experience": "Experience",
+    "MobileProjects": "Mobile Applications",
+    "VideogamesProjects": "Professional Video Game Projects"
   },
-  "TechnicalSkills": "Habilidades técnicas",
+  "TechnicalSkills": "Technical Skills",
 
   "skillCategories": {
-    "gameEngines": "Motores de videojuegos y aplicaciones moviles",
-    "programming": "Programacion",
-    "tools": "Herramientas y frameworks"
+    "gameEngines": "Video Game and Mobile Application Engines",
+    "programming": "Programming",
+    "tools": "Tools and Frameworks"
   },
   "skills": {
-    "unity": "Unity Ingles",
+    "unity": "Unity",
     "unreal": "Unreal Engine",
     "ionic": "Ionic",
     "c#": "C#",
-    "typescript": "Typescript",
+    "typescript": "TypeScript",
     "c++": "C++",
     "angular": "Angular",
     "git": "Git",
-    "photo&utils": "Photoshop y motores 3D"
+    "photo&utils": "Photoshop and 3D Engines"
   },
   "description": {
-    "unity": "Experto en Unity. Multiples proyectos desarrollados en este motor",
-    "unreal": "Conocimiento notable del lenguaje. Tanto de blueprints como de su apartado en C++",
-    "ionic": "Aplicaciones moviles desarrolladas gracias a este framework. Conocimiento extenso de sus componentes y soltura a la hora de usarlo",
-    "c#": "Experto en C# y orientado a Unity. Conocimiento extenso del lenguaje",
-    "typescript": "Multiples proyectos desarrollados mediante el lenguje typescript a traves de los proyectos de Ionic",
-    "c++": "Diversos proyectos desarrollados con C++ dentro del grado. Conocimiento de las bases del lenguaje y el desarrollo",
-    "angular": "Multiples proyectos desarrollados en Ionic usando Angular. Conocimiento extenso del framework",
-    "git": "Multiples proyectos gestionados mediante el sistema de control de versiones de Git",
-    "photo&utils": "Entendimiento basico de las herramientas aunque suficiente para poder usar las herramientas con soltura."
+    "unity": "Expert in Unity. Multiple projects developed using this engine.",
+    "unreal": "Notable knowledge of the engine, both in blueprints and its C++ functionality.",
+    "ionic": "Mobile applications developed with this framework. Extensive knowledge of its components and fluency in its usage.",
+    "c#": "Expert in C# with a focus on Unity. Extensive knowledge of the language.",
+    "typescript": "Multiple projects developed using TypeScript through Ionic projects.",
+    "c++": "Various projects developed in C++ during my studies. Understanding of the language fundamentals and development.",
+    "angular": "Multiple projects developed in Ionic using Angular. Extensive knowledge of the framework.",
+    "git": "Multiple projects managed using the Git version control system.",
+    "photo&utils": "Basic understanding of the tools, but sufficient to use them efficiently."
   },
-  "projectsTitle": "Proyectos English",
+  "projectsTitle": "Projects",
+  "projectsViewDetails": "View Details",
   "projects": 
   {
     "metal-tales-overkill": 
     {
-      "name": "Game Port: Metal Tales Overkill English",
-      "shortDescription": "Descripcion corta temporal de prueba",
-      "fullDescription": "Descripcion larga temportal de prueba english",
+      "name": "Game Port: Metal Tales Overkill",
+      "shortDescription": "Participated with other members in porting the game 'Metal Tales' to PS4 and Switch.",
+      "fullDescription": "Metal Tales Overkill is the ported version of the Metal Tales video game, a metal-themed roguelike with multiple levels, enemies, items, and environments. \n The port was developed in Unity as it was an older project initially built using this engine. In this project, I learned the process of porting a PC project to PS4/Switch, which marked the beginning of my career in this field.",
       "technologies": 
       {
-        "PS4 Port English": "PS4 Port English",
-        "Switch Port": "Switch Port",
-        "Unity": "Unity",
-        "C#": "C#"
+        "tech1": "PS4 Port",
+        "tech2": "Switch Port",
+        "tech3": "Unity",
+        "tech4": "C#"
       },
       "features": 
-      [
-        "Juego multiplataforma",
-        "Multiples personajes y niveles",
-        "Roguelike",
-        "Multijugador cooperativo",
-        "¡Metal!"
-      ],
+      {
+        "feature1": "Multiplatform",
+        "feature2": "Multiple characters and levels",
+        "feature3": "Roguelike",
+        "feature4": "Cooperative multiplayer",
+        "feature5": "Metal!"
+      },
       "challenges": 
-      [
-        "Aprender desde 0 como realizar game ports a PS4 y a Switch",
-        "Primer proyecto en el sector profesional",
-        "Resolución de problemas derivados de ser un proyecto antiguo"
-      ]
+      {
+        "challenge1": "Learning from scratch how to port games to PS4 and Switch.",
+        "challenge2": "First project in the professional sector.",
+        "challenge3": "Solving issues arising from working with an old project."
+      }
+    },
+
+    "sonar-beat":
+    {
+      "name": "Game Port: Sonar Beat",
+      "shortDescription": "Participated with other members in porting the game 'Sonar Beat' to PS4 and Switch, a rhythm game originally for PC and mobile.",
+      "fullDescription": "This project is the ported version of the Sonar Beat video game, a rhythm game with different levels where the player must press notes appearing on the screen in sync with a constantly rotating sonar. It features multiple levels with increasing difficulty. \n The port was developed in Unity since the original project was built using this engine. It was developed for both Europe and Asia. This project provided me with final experience to gain a strong understanding of porting to PS4 and Switch. However, I remain eager to continue working on more projects and learning more about the subject.",
+      "technologies": 
+      {
+        "tech1": "PS4 Port",
+        "tech2": "Switch Port",
+        "tech3": "Unity",
+        "tech4": "C#"
+      },
+      "features": 
+      {
+        "feature1": "Multiplatform and multi-language",
+        "feature2": "Multiple levels and difficulties",
+        "feature3": "Ranking system across all platforms",
+        "feature4": "Rhythm game"
+      },
+      "challenges": 
+      {
+        "challenge1": "Learning the ranking system for Switch and PS4.",
+        "challenge2": "Learning how to create a multi-language project for Switch and PS4.",
+        "challenge3": "Solving issues related to the porting process."
+      }
     }
+  },
+
+  "projectDetails": 
+  {
+    "Videos": "Videos",
+    "Screenshoots": "Screenshots",
+    "KeyFeatures": "Key Features",
+    "TechnicalChallenges": "Technical Challenges",
+    "date": "until",
+    "beginDate": "From"
+  },
+
+  "footer": 
+  {
+    "title": "Let's Work Together",
+    "description": "Do you think I would be a good fit for your project? Contact me via email using the button below.",
+    "contactme": "Contact Me",
+    "allrightsreserved": "All rights reserved"
   }
-  }
+}

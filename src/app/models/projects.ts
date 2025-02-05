@@ -40,7 +40,8 @@ export const projects: Project[] = [
     // githubUrl?: string;
     // gitlabUrl?: string;
     // projectUrl?: string;
-    startDate: '01-01-2024',
+    startDate: '2021-01-21',
+    endDate: '2022-03-14',
     features: [
       'projects.metal-tales-overkill.features.feature1',
       'projects.metal-tales-overkill.features.feature2',
@@ -78,8 +79,8 @@ export const projects: Project[] = [
 
     ],
     imageUrl: '../../assets/imgs/projects/Sonar-Beat/sonar-beat-splash.jpg',
-    // startDate?: string;
-    // endDate?: string;
+     startDate: '2022-04-14',
+    endDate: '2024-05-24',
     // githubUrl?: string;
     // gitlabUrl?: string;
     // projectUrl?: string;

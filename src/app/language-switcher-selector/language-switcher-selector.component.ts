@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -9,7 +9,7 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class LanguageSwitcherSelectorComponent {
   currentLang: string | undefined;
-
+  
   constructor(private translation: TranslateService) {
 
     this.currentLang = translation.currentLang;

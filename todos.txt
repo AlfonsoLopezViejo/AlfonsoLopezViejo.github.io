@@ -1,8 +1,11 @@
 They are filtered by priority order: 
 
 
-TODO Add all the content that I want to put on the page
-TODO Make en and es translations for all texts -> This will be done when point 1 is done
+
+TODO Make en and es translations for all texts -> This will be done when point 1 is done 
 TODO Make a collage photo for the landing page
 TODO Find how to deploy the angular repo as a github page 
 TODO WEB GL builds posibility?
+
+Future changes
+TODO Add all the content that I want to put on the page

@@ -111,6 +111,16 @@
       "Videos": "Videos",
       "Screenshoots": "Capturas de pantalla",
       "KeyFeatures": "Características Clave",
-      "TechnicalChallenges": "Retos técnicos"
+      "TechnicalChallenges": "Retos técnicos",
+      "date": "hasta",
+      "beginDate": "De"
+    },
+
+    "footer": 
+    {
+      "title": "Trabajemos juntos",
+      "description": "¿Crees que puedo encajar en tu proyecto? Contactame al email en el boton que verás a continuación",
+      "contactme": "Contacta conmigo",
+      "allrightsreserved": "Todos los derechos reservados"
     }
   }

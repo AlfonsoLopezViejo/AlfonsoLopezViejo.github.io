@@ -126,7 +126,7 @@
         <div class="relative">
           <div class="aspect-square rounded-2xl overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3" 
+              src="../../assets/profile_photo.jpg" 
               alt="Profile" 
               class="w-full h-full object-cover"
             />
@@ -217,16 +217,16 @@
     <!-- Contact Section -->
     <section class="my-32 text-center">
       <h2 class="text-3xl font-bold mb-6">
-        <span class="text-gradient">Let's Create Something Amazing</span>
+        <span class="text-gradient">{{'footer.title' | translate}}</span>
       </h2>
       <p class="text-text-secondary text-lg mb-8 max-w-2xl mx-auto">
-        Looking for a passionate game developer to join your team? I'm always interested in hearing about new opportunities.
+        {{'footer.description' | translate}}
       </p>
       <a 
-        href="mailto:your.email@example.com" 
+        href="mailto:alfonsolopezviejo@gmail.com" 
         class="inline-flex items-center gap-2 bg-accent hover:bg-accent-hover text-white px-8 py-4 rounded-xl font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-accent/20"
       >
-        Get in Touch
+        {{'footer.contactme' | translate}}
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
           <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
         </svg>
@@ -235,6 +235,6 @@
 
     <!-- Footer -->
     <footer class="text-center py-8 text-text-secondary border-t border-white/5 mt-32">
-      <p>© {{currentYear}} John Doe. All rights reserved.</p>
+      <p>© {{currentYear}} Alfonso López Viejo. {{"footer.allrightsreserved" | translate}}</p>
     </footer>
   </div>
