@@ -76,7 +76,10 @@ export const projects: Project[] = [
     fullDescription: 'projects.sonar-beat.fullDescription',
     technologies: 
     [
-
+      "PS4 Port",
+      "Switch Port",
+      "Unity",
+      "C#"
     ],
     imageUrl: '../../assets/imgs/projects/Sonar-Beat/sonar-beat-splash.jpg',
      startDate: '2022-04-14',

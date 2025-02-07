@@ -104,7 +104,8 @@
 
     <div class="space-y-6">
       <div class="prose prose-invert max-w-none">
-        <p class="text-lg text-text-secondary">{{ project.fullDescription | translate}}</p>
+        <h1 class="text-2xl font-semibold mb-6"> {{'projectDetails.Description' | translate}} </h1> 
+        <markdown class="text-xl text-text-secondary" [data]="project.fullDescription | translate"></markdown>
       </div>
 
       <div class="flex flex-wrap gap-4">

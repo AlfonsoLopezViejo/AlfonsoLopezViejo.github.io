@@ -5,10 +5,11 @@ import { Project, projects } from '../models/projects';
 import { DomSanitizer } from '@angular/platform-browser';
 import { SafePipe } from '../pipes/safe.pipe';
 import { TranslateModule } from '@ngx-translate/core';
+import { MarkdownModule } from 'ngx-markdown';
 
 @Component({
   selector: 'app-project-details',
-  imports: [CommonModule, RouterModule, SafePipe, TranslateModule, DatePipe],
+  imports: [CommonModule, RouterModule, SafePipe, TranslateModule, DatePipe, MarkdownModule],
   templateUrl: './project-details.component.html',
   styleUrl: './project-details.component.css'
 })

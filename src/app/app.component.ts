@@ -1,14 +1,15 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, SecurityContext } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { projects } from './models/projects';
 import { BackgroundComponent } from './background/background.component';
 import { LanguageSwitcherSelectorComponent } from './language-switcher-selector/language-switcher-selector.component';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import {MarkdownModule } from 'ngx-markdown'
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, RouterModule, LanguageSwitcherSelectorComponent, BackgroundComponent, TranslateModule],
+  imports: [CommonModule, RouterModule, LanguageSwitcherSelectorComponent, BackgroundComponent, TranslateModule, MarkdownModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
