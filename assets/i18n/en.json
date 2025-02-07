@@ -44,7 +44,7 @@
     "c++": "Various projects developed in C++ during my studies. Understanding of the language fundamentals and development.",
     "angular": "Multiple projects developed in Ionic using Angular. Extensive knowledge of the framework.",
     "git": "Multiple projects managed using the Git version control system.",
-    "photo&utils": "Basic understanding of the tools, but sufficient to use them efficiently."
+    "photo&utils": "Basic understanding of the tools, but sufficient to make small modifications to files easily."
   },
   "projectsTitle": "Projects",
   "projectsViewDetails": "View Details",
@@ -54,7 +54,7 @@
     {
       "name": "Game Port: Metal Tales Overkill",
       "shortDescription": "Participated with other members in porting the game 'Metal Tales' to PS4 and Switch.",
-      "fullDescription": "Metal Tales Overkill is the ported version of the Metal Tales video game, a metal-themed roguelike with multiple levels, enemies, items, and environments. \n The port was developed in Unity as it was an older project initially built using this engine. In this project, I learned the process of porting a PC project to PS4/Switch, which marked the beginning of my career in this field.",
+      "fullDescription": "<p>Metal Tales Overkill is the ported version of the Metal Tales video game, a <strong>roguelike</strong> with a <strong>metal theme</strong> featuring multiple levels, enemies, items, and environments.</p> <br> <p>The port was developed in <strong>Unity</strong> as it was an older project originally developed using this engine. In this project, I <strong>learned the porting process</strong> of a PC project to PS4/Switch, marking <strong>the beginning of my career in this field</strong>.</p>",
       "technologies": 
       {
         "tech1": "PS4 Port",
@@ -82,7 +82,7 @@
     {
       "name": "Game Port: Sonar Beat",
       "shortDescription": "Participated with other members in porting the game 'Sonar Beat' to PS4 and Switch, a rhythm game originally for PC and mobile.",
-      "fullDescription": "This project is the ported version of the Sonar Beat video game, a rhythm game with different levels where the player must press notes appearing on the screen in sync with a constantly rotating sonar. It features multiple levels with increasing difficulty. \n The port was developed in Unity since the original project was built using this engine. It was developed for both Europe and Asia. This project provided me with final experience to gain a strong understanding of porting to PS4 and Switch. However, I remain eager to continue working on more projects and learning more about the subject.",
+      "fullDescription": "<p>This project is the ported version of the video game Sonar Beat, a <strong>rhythm game</strong> with different levels in which the player must hit the notes that appear on screen in time with a constantly rotating sonar. It consists of several levels with progressive difficulty.</p><br><p>The port was <strong>developed in Unity</strong> since the original project was built with this engine. It was developed for both Europe and Asia. In this project, I gained <strong>more experience</strong> to acquire a solid understanding of porting to PS4 and Switch. Even so, I remain motivated to continue taking on new projects and deepening my knowledge on the subject.</p>",
       "technologies": 
       {
         "tech1": "PS4 Port",
@@ -108,6 +108,7 @@
 
   "projectDetails": 
   {
+    "Description": "Project Description",
     "Videos": "Videos",
     "Screenshoots": "Screenshots",
     "KeyFeatures": "Key Features",

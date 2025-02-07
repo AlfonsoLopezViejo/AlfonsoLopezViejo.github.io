@@ -44,7 +44,7 @@
       "c++": "Diversos proyectos desarrollados con C++ dentro del grado. Conocimiento de las bases del lenguaje y el desarrollo",
       "angular": "Multiples proyectos desarrollados en Ionic usando Angular. Conocimiento extenso del framework",
       "git": "Multiples proyectos gestionados mediante el sistema de control de versiones de Git",
-      "photo&utils": "Entendimiento basico de las herramientas aunque suficiente para poder usar las herramientas con soltura."
+      "photo&utils": "Entendimiento basico de las herramientas aunque suficiente para hacer pequeñas modificaciones a archivos con facilidad."
     },
     "projectsTitle": "Proyectos",
     "projectsViewDetails": "Ver Detalles",
@@ -54,7 +54,7 @@
       {
         "name": "Game Port: Metal Tales Overkill",
         "shortDescription": "Participe junto a otros miembros en el port a PS4 y Switch del juego 'Metal Tales'",
-        "fullDescription": "Metal Tales Overkill es la version porteada del videojuego Metal Tales, un roguelike con tematica metalera con multiples niveles, enemigos, objetos y escenarios. \n El port fue desarrollado en Unity ya que era un proyecto antiguo y que habia sido desarrollado con este motor en el pasado. En este proyecto aprendi el proceso de port de un proyecto de PC a PS4/Switch y fue el comienzo de mi carrera en este ambito",
+        "fullDescription": "<p>Metal Tales Overkill es la version porteada del videojuego Metal Tales, un <strong>roguelike</strong> con <strong>tematica metalera</strong> con multiples niveles, enemigos, objetos y escenarios.</p> <br> <p> El port fue desarrollado en <strong>Unity</strong> ya que era un proyecto antiguo y que habia sido desarrollado con este motor en el pasado. En este proyecto <strong>aprendi el proceso de port</strong> de un proyecto de PC a PS4/Switch y fue <strong>el comienzo de mi carrera en este ambito</strong> </p>",
         "technologies": 
         {
           "tech1": "PS4 Port English",
@@ -82,7 +82,7 @@
       {
         "name": "Game Port: Sonar Beat",
         "shortDescription": "Participe junto a otros miembros en el port a PS4 y Switch del juego 'Sonar Beat', un juego de ritmo que estaba en PC y moviles",
-        "fullDescription": "Este proyecto es la version porteada del videojuego Sonar Beat, un juego de ritmo con diferentes niveles en los que el jugador debera pulsar las notas que le aparecen en pantalla al ritmo de un sonar que va girando constantemente. Consta de varios niveles con dificultad progresiva \n El port fue desarrollado en Unity ya que el proyecto original estaba desarrollado en este motor. Se desarrollo tanto para Europa como para Asia. En este proyecto adquiri la más experiencia final para tener un buen conocimiento en el port a PS4 y Switch. Aun así, sigo teniendo iniciativa por continuar realizando más proyectos y aprendiendo más del tema.",
+        "fullDescription": "<p>Este proyecto es la version porteada del videojuego Sonar Beat, un <strong>juego de ritmo</strong> con diferentes niveles en los que el jugador debera pulsar las notas que le aparecen en pantalla al ritmo de un sonar que va girando constantemente. Consta de varios niveles con dificultad progresiva</p> <br> <p>El port fue <strong>desarrollado en Unity</strong> ya que el proyecto original estaba desarrollado en este motor. Se desarrollo tanto para Europa como para Asia. En este proyecto adquiri <strong>más experiencia </strong> para tener un buen conocimiento en el port a PS4 y Switch. Aun así, sigo teniendo iniciativa por continuar realizando más proyectos y aprendiendo más del tema.</p>",
         "technologies": 
         {
           "tech1": "PS4 Port",
@@ -108,6 +108,7 @@
 
     "projectDetails": 
     {
+      "Description": "Descripción del proyecto",
       "Videos": "Videos",
       "Screenshoots": "Capturas de pantalla",
       "KeyFeatures": "Características Clave",
