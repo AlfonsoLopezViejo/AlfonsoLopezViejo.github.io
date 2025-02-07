@@ -1,0 +1,127 @@
+{
+    "BackToPortfolio": "Volver al inicio",
+    "AvailableToWork": "Dispuesto para trabajar",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto",
+    "ProfessionName": "Desarrollador de videojuegos",
+    "ProfessionSubtitle": "Creando experiencias inmersivas a traves de los videojuegos. Especializado en Unity y en ports de juegos a otra plataformas.",
+    "AboutMe": 
+    { 
+      "Title": "Sobre mi",
+      "DescriptionP1": "Mi nombre es Alfonso López Viejo y llevo 4 años en el sector de la programación y el desarrollo de videojuegos a nivel profesional. Mi camino empezo en 2016 cuando decidí realizar el grado de en Diseño y Desarrollo de Videojuegos en la UDIT. Los comienzos fueron complicados, pero con constancia y perseverancia conseguí acabar el grado en el año 2020.",
+      "DescriptionP2": "Fue en este grado donde descubri mi pasión por la programación y la resolución de problemas. Desde pequeño, siempre he sido una persona curiosa, logica y resolutiva y esta profesión me ha permitido explotar estas areas a su maximo exponente.",
+      "DescriptionP3": "Mi primera oportunidad profesional, fue en el sector de ports de juegos a otras plataformas. Gracias a dos proyectos indi, pude empezar a desarrollarme de manera profesional y a aplicar los conocimientos adquiridos en la carrera. Desde este comienzo hasta la actualidad, mis ganas por dedicarme a la programación y al sector de los videojuegos no han dejado de crecer y continuo buscando el desarrollo profesional día a día.",
+      "DescriptionP4": "En la actualidad he conseguido especializarme en el sector de los ports a consolas y he realizado varios trabajos en el sector del desarrollo movil. Cada día sigo aprendiendo tecnologías nuevas y estoy dispuesto a aprender todo lo posible para desarrollarme de forma profesional en el sector",
+      "YearsOfExperience": "años de experiencia como programador",
+      "Experience": "Experiencia",
+      "MobileProjects": "Aplicaciones moviles",
+      "VideogamesProjects": "Proyectos profesionales desarrollados de videojuegos"
+    },
+    "TechnicalSkills": "Habilidades técnicas",
+
+    "skillCategories": {
+      "gameEngines": "Motores de videojuegos y aplicaciones moviles",
+      "programming": "Programacion",
+      "tools": "Herramientas y frameworks"
+    },
+    "skills": {
+      "unity": "Unity",
+      "unreal": "Unreal Engine",
+      "ionic": "Ionic",
+      "c#": "C#",
+      "typescript": "Typescript",
+      "c++": "C++",
+      "angular": "Angular",
+      "git": "Git",
+      "photo&utils": "Photoshop y motores 3D"
+    },
+    "description": {
+      "unity": "Experto en Unity. Multiples proyectos desarrollados en este motor",
+      "unreal": "Conocimiento notable del lenguaje. Tanto de blueprints como de su apartado en C++",
+      "ionic": "Aplicaciones moviles desarrolladas gracias a este framework. Conocimiento extenso de sus componentes y soltura a la hora de usarlo",
+      "c#": "Experto en C# y orientado a Unity. Conocimiento extenso del lenguaje",
+      "typescript": "Multiples proyectos desarrollados mediante el lenguje typescript a traves de los proyectos de Ionic",
+      "c++": "Diversos proyectos desarrollados con C++ dentro del grado. Conocimiento de las bases del lenguaje y el desarrollo",
+      "angular": "Multiples proyectos desarrollados en Ionic usando Angular. Conocimiento extenso del framework",
+      "git": "Multiples proyectos gestionados mediante el sistema de control de versiones de Git",
+      "photo&utils": "Entendimiento basico de las herramientas aunque suficiente para hacer pequeñas modificaciones a archivos con facilidad."
+    },
+    "projectsTitle": "Proyectos",
+    "projectsViewDetails": "Ver Detalles",
+    "projects": 
+    {
+      "metal-tales-overkill": 
+      {
+        "name": "Game Port: Metal Tales Overkill",
+        "shortDescription": "Participe junto a otros miembros en el port a PS4 y Switch del juego 'Metal Tales'",
+        "fullDescription": "<p>Metal Tales Overkill es la version porteada del videojuego Metal Tales, un <strong>roguelike</strong> con <strong>tematica metalera</strong> con multiples niveles, enemigos, objetos y escenarios.</p> <br> <p> El port fue desarrollado en <strong>Unity</strong> ya que era un proyecto antiguo y que habia sido desarrollado con este motor en el pasado. En este proyecto <strong>aprendi el proceso de port</strong> de un proyecto de PC a PS4/Switch y fue <strong>el comienzo de mi carrera en este ambito</strong> </p>",
+        "technologies": 
+        {
+          "tech1": "PS4 Port English",
+          "tech2": "Switch Port",
+          "tech3": "Unity",
+          "tech4": "C#"
+        },
+        "features": 
+        {
+          "feature1": "Multiplataforma",
+          "feature2": "Multiples personajes y niveles",
+          "feature3": "Roguelike",
+          "feature4": "Multijugador cooperativo",
+          "feature5": "¡Metal!"
+        },
+        "challenges": 
+        {
+          "challenge1": "Aprender desde 0 como realizar game ports a PS4 y a Switch",
+          "challenge2": "Primer proyecto en el sector profesional",
+          "challenge3": "Resolución de problemas derivados de ser un proyecto antiguo"
+        }
+      },
+
+      "sonar-beat":
+      {
+        "name": "Game Port: Sonar Beat",
+        "shortDescription": "Participe junto a otros miembros en el port a PS4 y Switch del juego 'Sonar Beat', un juego de ritmo que estaba en PC y moviles",
+        "fullDescription": "<p>Este proyecto es la version porteada del videojuego Sonar Beat, un <strong>juego de ritmo</strong> con diferentes niveles en los que el jugador debera pulsar las notas que le aparecen en pantalla al ritmo de un sonar que va girando constantemente. Consta de varios niveles con dificultad progresiva</p> <br> <p>El port fue <strong>desarrollado en Unity</strong> ya que el proyecto original estaba desarrollado en este motor. Se desarrollo tanto para Europa como para Asia. En este proyecto adquiri <strong>más experiencia </strong> para tener un buen conocimiento en el port a PS4 y Switch. Aun así, sigo teniendo iniciativa por continuar realizando más proyectos y aprendiendo más del tema.</p>",
+        "technologies": 
+        {
+          "tech1": "PS4 Port",
+          "tech2": "Switch Port",
+          "tech3": "Unity",
+          "tech4": "C#"
+        },
+        "features": 
+        {
+          "feature1": "Multiplataforma y multidioma",
+          "feature2": "Multiples niveles y dificultades",
+          "feature3": "Sistema de rankings en todas las plataformas",
+          "feature4": "Juego de ritmo"
+        },
+        "challenges": 
+        {
+          "challenge1": "Aprendizaje del sistema de rankings de Switch y PS4",
+          "challenge2": "Aprendizaje de como realizar un proyecto multidioma orientado a Switch y PS4",
+          "challenge3": "Resolución de problemas derivados con el port"
+        }
+      }
+    },
+
+    "projectDetails": 
+    {
+      "Description": "Descripción del proyecto",
+      "Videos": "Videos",
+      "Screenshoots": "Capturas de pantalla",
+      "KeyFeatures": "Características Clave",
+      "TechnicalChallenges": "Retos técnicos",
+      "date": "hasta",
+      "beginDate": "De"
+    },
+
+    "footer": 
+    {
+      "title": "Trabajemos juntos",
+      "description": "¿Crees que puedo encajar en tu proyecto? Contactame al email en el boton que verás a continuación",
+      "contactme": "Contacta conmigo",
+      "allrightsreserved": "Todos los derechos reservados"
+    }
+  }

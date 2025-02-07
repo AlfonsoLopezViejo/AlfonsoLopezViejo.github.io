@@ -1,0 +1,127 @@
+{
+  "BackToPortfolio": "Back to Home",
+  "AvailableToWork": "Available to Work",
+  "about": "About Us",
+  "contact": "Contact",
+  "ProfessionName": "Video Game Developer",
+  "ProfessionSubtitle": "Creating immersive experiences through video games. Specialized in Unity and game ports to other platforms.",
+  "AboutMe": 
+  { 
+    "Title": "About Me",
+    "DescriptionP1": "My name is Alfonso López Viejo, and I have been in the programming and video game development industry for four years professionally. My journey began in 2016 when I decided to pursue a degree in Game Design and Development at UDIT. The beginnings were challenging, but with perseverance and dedication, I managed to complete my degree in 2020.",
+    "DescriptionP2": "It was during this degree that I discovered my passion for programming and problem-solving. Since childhood, I have always been a curious, logical, and resourceful person, and this profession has allowed me to fully utilize these qualities.",
+    "DescriptionP3": "My first professional opportunity was in the game porting sector. Thanks to two indie projects, I was able to start developing professionally and applying the knowledge acquired during my studies. From this beginning until now, my passion for programming and the video game industry has continued to grow, and I strive for professional development every day.",
+    "DescriptionP4": "Currently, I have specialized in console ports and have worked on various mobile development projects. Every day, I continue learning new technologies and am eager to acquire as much knowledge as possible to further develop my professional skills in the industry.",
+    "YearsOfExperience": "years of experience as a programmer",
+    "Experience": "Experience",
+    "MobileProjects": "Mobile Applications",
+    "VideogamesProjects": "Professional Video Game Projects"
+  },
+  "TechnicalSkills": "Technical Skills",
+
+  "skillCategories": {
+    "gameEngines": "Video Game and Mobile Application Engines",
+    "programming": "Programming",
+    "tools": "Tools and Frameworks"
+  },
+  "skills": {
+    "unity": "Unity",
+    "unreal": "Unreal Engine",
+    "ionic": "Ionic",
+    "c#": "C#",
+    "typescript": "TypeScript",
+    "c++": "C++",
+    "angular": "Angular",
+    "git": "Git",
+    "photo&utils": "Photoshop and 3D Engines"
+  },
+  "description": {
+    "unity": "Expert in Unity. Multiple projects developed using this engine.",
+    "unreal": "Notable knowledge of the engine, both in blueprints and its C++ functionality.",
+    "ionic": "Mobile applications developed with this framework. Extensive knowledge of its components and fluency in its usage.",
+    "c#": "Expert in C# with a focus on Unity. Extensive knowledge of the language.",
+    "typescript": "Multiple projects developed using TypeScript through Ionic projects.",
+    "c++": "Various projects developed in C++ during my studies. Understanding of the language fundamentals and development.",
+    "angular": "Multiple projects developed in Ionic using Angular. Extensive knowledge of the framework.",
+    "git": "Multiple projects managed using the Git version control system.",
+    "photo&utils": "Basic understanding of the tools, but sufficient to make small modifications to files easily."
+  },
+  "projectsTitle": "Projects",
+  "projectsViewDetails": "View Details",
+  "projects": 
+  {
+    "metal-tales-overkill": 
+    {
+      "name": "Game Port: Metal Tales Overkill",
+      "shortDescription": "Participated with other members in porting the game 'Metal Tales' to PS4 and Switch.",
+      "fullDescription": "<p>Metal Tales Overkill is the ported version of the Metal Tales video game, a <strong>roguelike</strong> with a <strong>metal theme</strong> featuring multiple levels, enemies, items, and environments.</p> <br> <p>The port was developed in <strong>Unity</strong> as it was an older project originally developed using this engine. In this project, I <strong>learned the porting process</strong> of a PC project to PS4/Switch, marking <strong>the beginning of my career in this field</strong>.</p>",
+      "technologies": 
+      {
+        "tech1": "PS4 Port",
+        "tech2": "Switch Port",
+        "tech3": "Unity",
+        "tech4": "C#"
+      },
+      "features": 
+      {
+        "feature1": "Multiplatform",
+        "feature2": "Multiple characters and levels",
+        "feature3": "Roguelike",
+        "feature4": "Cooperative multiplayer",
+        "feature5": "Metal!"
+      },
+      "challenges": 
+      {
+        "challenge1": "Learning from scratch how to port games to PS4 and Switch.",
+        "challenge2": "First project in the professional sector.",
+        "challenge3": "Solving issues arising from working with an old project."
+      }
+    },
+
+    "sonar-beat":
+    {
+      "name": "Game Port: Sonar Beat",
+      "shortDescription": "Participated with other members in porting the game 'Sonar Beat' to PS4 and Switch, a rhythm game originally for PC and mobile.",
+      "fullDescription": "<p>This project is the ported version of the video game Sonar Beat, a <strong>rhythm game</strong> with different levels in which the player must hit the notes that appear on screen in time with a constantly rotating sonar. It consists of several levels with progressive difficulty.</p><br><p>The port was <strong>developed in Unity</strong> since the original project was built with this engine. It was developed for both Europe and Asia. In this project, I gained <strong>more experience</strong> to acquire a solid understanding of porting to PS4 and Switch. Even so, I remain motivated to continue taking on new projects and deepening my knowledge on the subject.</p>",
+      "technologies": 
+      {
+        "tech1": "PS4 Port",
+        "tech2": "Switch Port",
+        "tech3": "Unity",
+        "tech4": "C#"
+      },
+      "features": 
+      {
+        "feature1": "Multiplatform and multi-language",
+        "feature2": "Multiple levels and difficulties",
+        "feature3": "Ranking system across all platforms",
+        "feature4": "Rhythm game"
+      },
+      "challenges": 
+      {
+        "challenge1": "Learning the ranking system for Switch and PS4.",
+        "challenge2": "Learning how to create a multi-language project for Switch and PS4.",
+        "challenge3": "Solving issues related to the porting process."
+      }
+    }
+  },
+
+  "projectDetails": 
+  {
+    "Description": "Project Description",
+    "Videos": "Videos",
+    "Screenshoots": "Screenshots",
+    "KeyFeatures": "Key Features",
+    "TechnicalChallenges": "Technical Challenges",
+    "date": "until",
+    "beginDate": "From"
+  },
+
+  "footer": 
+  {
+    "title": "Let's Work Together",
+    "description": "Do you think I would be a good fit for your project? Contact me via email using the button below.",
+    "contactme": "Contact Me",
+    "allrightsreserved": "All rights reserved"
+  }
+}
